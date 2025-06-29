@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern yatay scroll bar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #1e90ff #f0f0f0;
+}
+.scrollbar-thin::-webkit-scrollbar {
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #1e90ff55;
+  border-radius: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+/* Çiçek animasyonu */
+@keyframes flower-fadein {
+  from { opacity: 0; transform: translateY(40px) scale(0.7) rotate(-10deg);}
+  60% { opacity: 1; transform: translateY(-10px) scale(1.1) rotate(5deg);}
+  to { opacity: 1; transform: translateY(0) scale(1) rotate(0);}
+}
+.flower-anim-area {
+  min-height: 120px;
+}
+.flower-anim-area .flower-animate,
+.flower-anim-area .flower-emoji {
+  opacity: 0;
+  animation: flower-fadein 0.9s forwards;
+  animation-timing-function: cubic-bezier(.68,-0.55,.27,1.55);
+  z-index: 1;
+  position: relative;
+}
+.flower-anim-area .flower-emoji {
+  position: absolute;
+  left: 0; right: 0; margin: auto;
+  font-size: 2.5rem;
+  top: 0;
+  pointer-events: none;
+  display: none;
+}
+.flower-anim-area .flower-animate[style*='display: none'] + .flower-emoji {
+  display: block;
+}
+.flower-anim-area .soil {
+  width: 38px;
+  height: 16px;
+  background: #a0522d;
+  border-radius: 50%;
+  margin-top: -10px;
+  z-index: 0;
+  position: relative;
+  box-shadow: 0 2px 8px #0002;
+}
+
+/* Bu dosya, global CSS stillerini içerecektir. */ 

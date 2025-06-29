@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Sudenur Öztürk",
+    "email": "whodenur@gmail.com",
+    "password": "123456",
+    "age": "18",
+    "gender": "female"
+  },
+  {
+    "name": "Feyza Nur Öztürk",
+    "email": "feyza@gmail.com",
+    "password": "123456",
+    "age": "19",
+    "gender": "female"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "1",
+    "userId": "user123",
+    "title": "5 kg Kilo Ver",
+    "description": "Yaza kadar 5 kilo vermek istiyorum.",
+    "type": "weight",
+    "targetValue": 70,
+    "currentValue": 75,
+    "unit": "kg",
+    "deadline": "2024-08-01",
+    "milestones": [
+      {
+        "id": "m1",
+        "title": "İlk hafta 1 kg",
+        "completed": false
+      },
+      {
+        "id": "m2",
+        "title": "İkinci hafta 1 kg",
+        "completed": false
+      }
+    ],
+    "createdAt": "2024-06-10T12:00:00.000Z",
+    "updatedAt": "2024-06-10T12:00:00.000Z"
+  },
+  {
+    "userId": "whodenur@gmail.com",
+    "title": "günlük su ihtiyacı",
+    "description": "günlük en az 2 litre su içmeye çalış.",
+    "type": "nutrition",
+    "targetValue": 2,
+    "currentValue": 2,
+    "unit": "Litre",
+    "deadline": "",
+    "milestones": [],
+    "_id": "1749671666323",
+    "createdAt": "2025-06-11T19:54:26.323Z",
+    "updatedAt": "2025-06-28T12:50:50.589Z",
+    "completed": false
+  },
+  {
+    "userId": "whodenur@gmail.com",
+    "title": "adım at",
+    "description": "koşu veya yürüyüş yapılcak",
+    "type": "fitness",
+    "targetValue": 10000,
+    "currentValue": 10000,
+    "unit": "adet",
+    "deadline": "2025-06-15",
+    "milestones": [],
+    "_id": "1749807073488",
+    "createdAt": "2025-06-13T09:31:13.488Z",
+    "updatedAt": "2025-06-28T14:42:53.823Z",
+    "completed": false
+  },
+  {
+    "userId": "whodenur@gmail.com",
+    "title": "dd",
+    "description": "d",
+    "type": "weight",
+    "targetValue": 5,
+    "currentValue": 5,
+    "unit": "kg",
+    "deadline": "2025-06-21",
+    "milestones": [],
+    "_id": "1750156139436",
+    "createdAt": "2025-06-17T10:28:59.437Z",
+    "updatedAt": "2025-06-28T14:40:16.692Z",
+    "completed": false
+  }
+]
